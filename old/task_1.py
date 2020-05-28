@@ -69,7 +69,7 @@ ox = np.sort(df['weight (g)'])
 oy = np.arange(len(ox)) / float(len(ox))
 
 plt.plot(ox, oy)
-# plt.show()
+plt.show()
 
 pdf = pd.DataFrame((data_s * 0.98) + 11, columns=['price'])
 print(pdf.describe())
